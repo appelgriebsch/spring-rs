@@ -25,3 +25,4 @@ spring-job = { path = "../spring-job" }
 spring-redis = { path = "../spring-redis" }
 serde = { workspace = true }
 serde_json = { workspace = true }
+tower-http = { workspace = true }

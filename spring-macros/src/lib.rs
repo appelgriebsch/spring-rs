@@ -162,7 +162,7 @@ pub fn nest(args: TokenStream, input: TokenStream) -> TokenStream {
 ///
 /// # Example
 /// ```rust
-/// use spring_web::{axum::{middleware::{self, Next}，response::Response}, extractor::Request, Router, middlewares};
+/// use spring_web::{axum::{middleware::{self, Next}, response::Response}, extractor::Request, Router, middlewares};
 /// use tower_http::timeout::TimeoutLayer;
 /// use std::time::Duration;
 ///
